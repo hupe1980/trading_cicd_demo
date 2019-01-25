@@ -1,0 +1,22 @@
+ident,type,name,latitude_deg,longitude_deg,elevation_ft,continent,iso_country,iso_region,municipality,gps_code,iata_code,local_code
+KATL,large_airport,Hartsfield Jackson Atlanta International Airport,33.63669968,-84.42810059,1026,NA,US,US-GA,Atlanta,KATL,ATL,ATL
+KDCA,large_airport,Ronald Reagan Washington National Airport,38.85210037,-77.03769684,15,NA,US,US-DC,Washington,KDCA,DCA,DCA
+KDEN,large_airport,Denver International Airport,39.86169815,-104.6729965,5431,NA,US,US-CO,Denver,KDEN,DEN,DEN
+KDFW,large_airport,Dallas Fort Worth International Airport,32.89680099,-97.03800201,607,NA,US,US-TX,Dallas-Fort Worth,KDFW,DFW,DFW
+KEWR,large_airport,Newark Liberty International Airport,40.69250107,-74.16870117,18,NA,US,US-NJ,Newark,KEWR,EWR,EWR
+KFLL,large_airport,Fort Lauderdale Hollywood International Airport,26.07259941,-80.15270233,9,NA,US,US-FL,Fort Lauderdale,KFLL,FLL,FLL
+KJFK,large_airport,John F Kennedy International Airport,40.63980103,-73.77890015,13,NA,US,US-NY,New York,KJFK,JFK,JFK
+KLAS,large_airport,McCarran International Airport,36.08010101,-115.1520004,2181,NA,US,US-NV,Las Vegas,KLAS,LAS,LAS
+KLAX,large_airport,Los Angeles International Airport,33.94250107,-118.4079971,125,NA,US,US-CA,Los Angeles,KLAX,LAX,LAX
+KLGA,large_airport,La Guardia Airport,40.77719879,-73.87259674,21,NA,US,US-NY,New York,KLGA,LGA,LGA
+KMCO,large_airport,Orlando International Airport,28.42939949,-81.30899811,96,NA,US,US-FL,Orlando,KMCO,MCO,MCO
+KMIA,large_airport,Miami International Airport,25.79319954,-80.29060364,8,NA,US,US-FL,Miami,KMIA,MIA,MIA
+KMSP,large_airport,Minneapolis-St Paul International/Wold-Chamberlain Airport,44.88199997,-93.22180176,841,NA,US,US-MN,Minneapolis,KMSP,MSP,MSP
+KORD,large_airport,Chicago O'Hare International Airport,41.97859955,-87.90480042,672,NA,US,US-IL,Chicago,KORD,ORD,ORD
+KPHL,large_airport,Philadelphia International Airport,39.87189865,-75.2410965,36,NA,US,US-PA,Philadelphia,KPHL,PHL,PHL
+KPHX,large_airport,Phoenix Sky Harbor International Airport,33.43429947,-112.012001,1135,NA,US,US-AZ,Phoenix,KPHX,PHX,PHX
+KSAN,large_airport,San Diego International Airport,32.73360062,-117.1900024,17,NA,US,US-CA,San Diego,KSAN,SAN,SAN
+KSEA,large_airport,Seattle Tacoma International Airport,47.44900131,-122.3089981,433,NA,US,US-WA,Seattle,KSEA,SEA,SEA
+KSFO,large_airport,San Francisco International Airport,37.61899948,-122.375,13,NA,US,US-CA,San Francisco,KSFO,SFO,SFO
+KSLC,large_airport,Salt Lake City International Airport,40.78839874,-111.9779968,4227,NA,US,US-UT,Salt Lake City,KSLC,SLC,SLC
+KTPA,large_airport,Tampa International Airport,27.97550011,-82.53320313,26,NA,US,US-FL,Tampa,KTPA,TPA,TPA

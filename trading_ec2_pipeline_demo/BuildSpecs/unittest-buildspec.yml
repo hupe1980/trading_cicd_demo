@@ -1,0 +1,27 @@
+version: 0.2
+
+env:
+  variables:
+    DATABASE_HOST: "not-used"
+    DATABASE_USER: "not-used"
+    DATABASE_PASSWORD: "not-used"
+    DATABASE_DB_NAME: "not-used"
+
+phases:
+  install:
+    commands:
+      - echo Install started on `date`
+      - pip3 install -r FlaskApp/requirements.txt
+  build:
+    commands:
+      - echo Build started on `date`
+      - cd FlaskApp
+      - python3 -m pylint *.py
+      - nosetests --cover-html --with-coverage --cover-erase --cover-package=.
+  post_build:
+    commands:
+      - echo Build completed on `date`
+
+artifacts:
+  files:
+    - 'FlaskApp/cover/*'

@@ -1,0 +1,23 @@
+{
+  "name": "trading-ec2-codepipeline",
+  "version": "0.1.0",
+  "bin": {
+    "trading-ec2-codepipeline": "bin/trading-ec2-codepipeline.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.2",
+    "aws-cdk": "^0.22.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-codebuild": "^0.22.0",
+    "@aws-cdk/aws-codecommit": "^0.22.0",
+    "@aws-cdk/aws-codedeploy": "^0.22.0",
+    "@aws-cdk/aws-codepipeline": "^0.22.0",
+    "@aws-cdk/cdk": "^0.22.0"
+  }
+}

@@ -1,0 +1,17 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /webapps/app
+hooks:
+  AfterInstall:
+    - location: CodeDeploy/configure_software.sh
+      timeout: 300
+      runas: root
+    - location: CodeDeploy/start_server.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: CodeDeploy/stop_server.sh
+      timeout: 300
+      runas: root

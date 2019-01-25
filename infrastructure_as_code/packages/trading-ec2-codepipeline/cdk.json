@@ -1,0 +1,3 @@
+{
+  "app": "node bin/trading-ec2-codepipeline.js"
+}

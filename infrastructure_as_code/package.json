@@ -1,0 +1,13 @@
+{
+  "name": "infrastructure_as_code",
+  "private": true,
+  "author": "frank.huebner@ewe.de",
+  "scripts": {
+    "lerna": "lerna"
+  },
+  "devDependencies": {
+    "@types/node": "^8.9.4",
+    "lerna": "^3.10.6",
+    "prettier": "^1.16.1"
+  }
+}

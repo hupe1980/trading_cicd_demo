@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo 'Install?'
+      
+  build:
+    commands:
+      - DATABASE_ROOT_PASSWORD=$(aws ssm get-parameter --name ${ENV_PREFIX}DATABASE-MASTER-PASSWORD --with-decryption --query 'Parameter.Value' --output text)
+      - sed -i 's/SED_REPLACE_PASS/$DATABASE_ROOT_PASSWORD/g' Templates/demo-provision-configuration.json
+      - sed -i 's/TEST-/$ENV_PREFIX/g' CodeDeploy/configure_software.sh
+
+  post_build:
+    commands:
+      - echo Build completed on `date`
+
+artifacts:
+  files:
+    - '**/*'
